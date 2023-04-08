@@ -2,7 +2,6 @@ namespace Entities
 {
     public class MarketItenDto
         {
-            #nullable enable
             public long? item_id { get; set; }
             public long? enhancement_level { get; set; }
             public long? id { get; set; }
@@ -35,7 +34,7 @@ namespace Entities
                         $"price_change: {price_change},\n" +
                         $"fourteen_day_volume: {fourteen_day_volume},\n" +
                         $"volume_change: {volume_change},\n" +
-                        $"name: {name}";
+                        $"name: {name}\n";
             }
         }
 }
